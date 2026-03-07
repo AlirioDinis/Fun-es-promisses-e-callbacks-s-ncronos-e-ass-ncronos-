@@ -5,7 +5,7 @@ import { InitSaudacao } from "./Callback_Assíncrono.js";
 
 const num = prompt("Insira um número para demonstrar: Promessa(0), Callback síncrono(1), Callback assíncrono(2)");
 
-function Demonstrar(num) {
+function Demonstrar (num) {
   if (num === "0") {
     Promessa();
   } else if (num === "1") {
