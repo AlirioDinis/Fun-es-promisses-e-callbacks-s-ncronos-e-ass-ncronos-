@@ -1,4 +1,4 @@
-export function InitSaudacao() {
+export function InitSaudacao () {
 
     function saudacao(nome, callback) {
         console.log("Olá " + nome);

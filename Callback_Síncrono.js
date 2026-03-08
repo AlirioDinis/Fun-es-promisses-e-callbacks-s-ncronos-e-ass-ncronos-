@@ -1,19 +1,3 @@
-/*export function Show() {
-
-    function exibirResultado(resultado){
-        console.log(`O resultado é: ${resultado}`);
-    }
-       //Callback síncrono
-    function calcular(calculo, exibirResultado) {
-        let resultado = eval(calculo);
-        exibirResultado(resultado);
-    }
-    
-    calcular(window.prompt("Informe um cálculo: "),exibirResultado);
-
-} */
-
-
 // Callback_Síncrono.js
 export function Show() {
 

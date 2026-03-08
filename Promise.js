@@ -1,6 +1,6 @@
 // 3 status de promisses: pendente, resolvido e rejeitado.
 
-export function Promessa() {
+export function Promessa () {
 let p1 = new Promise ((resolve, rejected) => {
     setTimeout(() => {
         resolve('Resolvido');
